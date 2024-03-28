@@ -7,7 +7,7 @@ export default function app() {
    return (
     <main>
       <section>
-      <div>
+      <div className="bg-orange">
         <img src={iconSedans} alt="ícone dos carros sedan" />
 
         <h2>Sedans</h2>
@@ -19,7 +19,7 @@ export default function app() {
 
       </div>
 
-      <div>
+      <div className="bg-green">
 
       <img src={iconSuvs} alt="ícone dos carros SUV" />
 
@@ -31,7 +31,7 @@ export default function app() {
 
       </div>
 
-    <div>
+      <div className="bg-dark-green">
 
     <img src={iconLuxury} alt="ícone dos carros de luxo" />
 
