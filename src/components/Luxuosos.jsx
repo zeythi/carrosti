@@ -4,7 +4,7 @@ export default function Luxuosos() {
 
   return (
 
-    <div className= "bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg" >
+    <section className= "bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg" >
 
         <img src={iconLuxury} alt= "ícone dos carros de luxo" className= "mb-7" />
 
@@ -14,7 +14,7 @@ export default function Luxuosos() {
 
         <a className= "font-lexend bg-offwhitebg border-offwhitebg text-dark-green block rounded-3xl px-10 py-3 w-fit border-2 hover:bg-dark-green hover:text-offwhitebg" href="https://www.webmotors.com.br/carros-de-luxo" target="_blanck" >Ver mais</a>
 
-    </div>
+    </section>
 
   )
 }

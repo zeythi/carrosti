@@ -4,7 +4,7 @@ export default function Suvs() {
 
   return (
 
-    <div className= "bg-green p-12" >
+    <section className= "bg-green p-12" >
 
         <img src={iconSuvs} alt= "ícone dos carros SUV" className= "mb-7" />
 
@@ -14,7 +14,7 @@ export default function Suvs() {
 
         <a className= "font-lexend bg-offwhitebg border-offwhitebg text-green block rounded-3xl px-10 py-3 w-fit border-2 hover:bg-green hover:text-offwhitebg" href="https://www.webmotors.com.br/suvs" target="_blanck" >Ver mais</a>
 
-    </div>
+    </section>
 
   )
 }
